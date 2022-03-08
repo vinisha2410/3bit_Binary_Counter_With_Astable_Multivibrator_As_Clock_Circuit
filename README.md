@@ -62,7 +62,7 @@ It is a tool which converts Verilog code to C++ objects. Refer: https://www.veri
 ## Steps to run this project
 1.Open a new terminal<Br />
 2.Clone this project using the following command:
-git clone https://github.com/Eyantra698Sumanto/XOR-XNOR-Gate.git<Br />
+
 3.Change directory:
 cd eSim_project_files/xor_xnor<Br />
 4.Run ngspice:
