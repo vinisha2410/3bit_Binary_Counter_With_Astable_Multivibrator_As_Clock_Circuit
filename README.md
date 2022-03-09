@@ -25,8 +25,12 @@
 This paper contains implementation of 3-bit Binary counter with Astable multivibrator as clock circuit. A counter is a sequential circuit that goes through a prescribed sequence of states upon the application of input pulses. The counter implemented here is a 3-bit synchronous up counter designed using JK flip flops. It counts binary numbers from 000 to 111. The clock pulses for this counter is produced by a Astable multivibrator. Astable multivibrators generally have a 50% duty cycle that produces a train of square wave pulses at a fixed known frequency.
 ## Reference Circuit Diagram
 ![image](https://user-images.githubusercontent.com/82384183/157345801-ba5a2eb3-5052-4cfc-8e3d-a551767f7a40.png)
-
+Fig 1- 3bit synchronous counter 
+![image](https://user-images.githubusercontent.com/82384183/157346232-1ec061df-2cba-4fd8-a481-141f8fc65b47.png)
+Fig 2- Astable multivibrator for clock generation
 ## Reference Waveform
+![image](https://user-images.githubusercontent.com/82384183/157346332-65b494f1-11b3-43fe-a88a-5f59aa0ec434.png)
+
 ## Reference Circuit Details
 The block diagram of 3-bit Synchronous binary up counter is shown in fig 1. Synchronous counters have common clock pulses which triggers all the flip-flops simultaneously. The J & K inputs of first, second and third flip-flops are 1, QA , (QA.QB) respectively. The output of JKA flip-flop toggles for every negative edge of clock signal .The output of second JK flip-flop toggles for every negative edge of clock if QA is 1 while that of third toggles for every negative edge of clock if both QA & QB are 1. Here, QC & QA are MSB & LSB respectively. The initial status of the JK flip-flops in the absence of clock signal is QCQBQA=000. This is incremented by one for every negative edge of clock signal. This pattern repeats when further negative edges of clock signal are applied.
 
@@ -79,3 +83,6 @@ ngspice xor_xnor.cir.out<Br />
 3.Kunal Ghosh, Co-founder, VSD Corp. Pvt. Ltd. - kunalpghosh@gmail.com<Br />
 4.Sumanto Kar, eSim Team, FOSSEE<Br />
 ## References
+[1] https://www.iitg.ac.in/cseweb/vlab/Digital-System-Lab/up_counter.php?id=13<Br />
+[2] https://www.electronics-tutorials.ws/waveforms/astable.html
+
