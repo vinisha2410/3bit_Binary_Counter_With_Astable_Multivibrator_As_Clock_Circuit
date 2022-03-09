@@ -50,7 +50,20 @@ https://www.makerchip.com/
 ### Verilator
 It is a tool which converts Verilog code to C++ objects. Refer: https://www.veripool.org/verilator/
 ## Circuit Diagram in eSim
+![image](https://user-images.githubusercontent.com/82384183/157348382-02dd4276-01ee-4297-9409-6f6bec41f368.png)
+
 ## Verilog Code
+'module vinisha_3bit_counter(input clk, reset, output[2:0] counter);
+reg [2:0] counter_up;
+always @(negedge clk or posedge reset)
+begin
+if(reset)
+ counter_up <= 3'd0;
+else
+ counter_up <= counter_up + 3'd1;
+end 
+assign counter = counter_up;
+endmodule'
 ## Makerchip
 ## Makerchip plots
 ## Netlists
