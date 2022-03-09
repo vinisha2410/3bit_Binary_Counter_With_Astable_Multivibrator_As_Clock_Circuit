@@ -147,11 +147,12 @@ U8  out0 plot_v1
 ## Steps to run this project
 1.Open a new terminal<Br />
 2.Clone this project using the following command:
+`git clone https://github.com/vinisha2410/3bit_Binary_Counter_With_Astable_Multivibrator_As_Clock_Circuit.git`
 
 3.Change directory:
-cd eSim_project_files/xor_xnor<Br />
+
 4.Run ngspice:
-ngspice xor_xnor.cir.out<Br />
+
 5.To run the project in eSim:<Br />
 • Run eSim<Br />
 • Load the project<Br />
