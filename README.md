@@ -132,6 +132,8 @@ U8  out0 plot_v1
 .end
 ```
 ## NgSpice Plots
+![image](https://user-images.githubusercontent.com/82384183/157350635-e8b40755-98e8-43a5-ad86-69e28b06770a.png)
+
 ## GAW Plots
 ## Steps to run generate NgVeri Model
 1.Open eSim <Br />
