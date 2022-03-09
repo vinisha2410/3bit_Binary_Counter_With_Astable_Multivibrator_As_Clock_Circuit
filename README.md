@@ -24,10 +24,10 @@
 ## Abstract
 This paper contains implementation of 3-bit Binary counter with Astable multivibrator as clock circuit. A counter is a sequential circuit that goes through a prescribed sequence of states upon the application of input pulses. The counter implemented here is a 3-bit synchronous up counter designed using JK flip flops. It counts binary numbers from 000 to 111. The clock pulses for this counter is produced by a Astable multivibrator. Astable multivibrators generally have a 50% duty cycle that produces a train of square wave pulses at a fixed known frequency.
 ## Reference Circuit Diagram
-![image](https://user-images.githubusercontent.com/82384183/157345801-ba5a2eb3-5052-4cfc-8e3d-a551767f7a40.png)
-Fig 1- 3bit synchronous counter 
-![image](https://user-images.githubusercontent.com/82384183/157346232-1ec061df-2cba-4fd8-a481-141f8fc65b47.png)
-Fig 2- Astable multivibrator for clock generation
+![image](https://user-images.githubusercontent.com/82384183/157345801-ba5a2eb3-5052-4cfc-8e3d-a551767f7a40.png) <Br />
+Fig 1- 3bit synchronous counter <Br />
+![image](https://user-images.githubusercontent.com/82384183/157346232-1ec061df-2cba-4fd8-a481-141f8fc65b47.png)<Br />
+Fig 2- Astable multivibrator for clock generation<Br />
 ## Reference Waveform
 ![image](https://user-images.githubusercontent.com/82384183/157346332-65b494f1-11b3-43fe-a88a-5f59aa0ec434.png)
 
