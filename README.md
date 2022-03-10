@@ -151,6 +151,7 @@ U8  out0 plot_v1
 3.Change directory:
 
 4.Run ngspice:
+` ngspice 3bit_counter.cir.out`
 
 5.To run the project in eSim:<Br />
 • Run eSim<Br />
