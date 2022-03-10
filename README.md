@@ -9,13 +9,12 @@
     • [NgSpice](https://github.com/vinisha2410/3bit_Binary_Counter_With_Astable_Multivibrator_As_Clock_Circuit/blob/main/README.md#ngspice)<br />
     • [Makerchip](https://github.com/vinisha2410/3bit_Binary_Counter_With_Astable_Multivibrator_As_Clock_Circuit/blob/main/README.md#makerchip)<br />
     • [Verilator](https://github.com/vinisha2410/3bit_Binary_Counter_With_Astable_Multivibrator_As_Clock_Circuit/blob/main/README.md#verilator)<br />
-  • [Netlists](https://github.com/vinisha2410/3bit_Binary_Counter_With_Astable_Multivibrator_As_Clock_Circuit/blob/main/README.md#circuit-diagram-in-esim)<br />
+  • [Circuit Diagram in esim](https://github.com/vinisha2410/3bit_Binary_Counter_With_Astable_Multivibrator_As_Clock_Circuit/blob/main/README.md#circuit-diagram-in-esim)<br />
   • [Verilog Code](https://github.com/vinisha2410/3bit_Binary_Counter_With_Astable_Multivibrator_As_Clock_Circuit/blob/main/README.md#verilog-code)<br />
   • [Makerchip](https://github.com/vinisha2410/3bit_Binary_Counter_With_Astable_Multivibrator_As_Clock_Circuit/blob/main/README.md#makerchip-1)<br />
   • [Makerchip plots](https://github.com/vinisha2410/3bit_Binary_Counter_With_Astable_Multivibrator_As_Clock_Circuit/blob/main/README.md#makerchip-plots)<br />
   • [Netlists](https://github.com/vinisha2410/3bit_Binary_Counter_With_Astable_Multivibrator_As_Clock_Circuit/blob/main/README.md#netlists)<br />
   • [NgSpice Plots](https://github.com/vinisha2410/3bit_Binary_Counter_With_Astable_Multivibrator_As_Clock_Circuit/blob/main/README.md#ngspice-plots)<br />
-  • [GAW Plots](https://github.com/vinisha2410/3bit_Binary_Counter_With_Astable_Multivibrator_As_Clock_Circuit/blob/main/README.md#gaw-plots)<br />
   • [Steps to run generate NgVeri Model](https://github.com/vinisha2410/3bit_Binary_Counter_With_Astable_Multivibrator_As_Clock_Circuit/blob/main/README.md#steps-to-run-generate-ngveri-model)<br />
   • [Steps to run this project](https://github.com/vinisha2410/3bit_Binary_Counter_With_Astable_Multivibrator_As_Clock_Circuit/blob/main/README.md#steps-to-run-this-project)<br />
   • [Acknowlegdements](https://github.com/vinisha2410/3bit_Binary_Counter_With_Astable_Multivibrator_As_Clock_Circuit/blob/main/README.md#acknowlegdements)<br />
@@ -132,9 +131,14 @@ U8  out0 plot_v1
 .end
 ```
 ## NgSpice Plots
-![image](https://user-images.githubusercontent.com/82384183/157350635-e8b40755-98e8-43a5-ad86-69e28b06770a.png)
+![image](https://user-images.githubusercontent.com/82384183/157350635-e8b40755-98e8-43a5-ad86-69e28b06770a.png) <Br />
+Output waveform of 3bit Counter<Br />
+<Br />
+![image](https://user-images.githubusercontent.com/82384183/157577460-d97837ab-63f2-4314-85ec-4a1bfc59b99a.png) <Br />
+Output of Astable multivibrator- Clock circuit
 
-## GAW Plots
+
+
 ## Steps to run generate NgVeri Model
 1.Open eSim <Br />
 2.Run NgVeri-Makerchip <Br />
@@ -152,6 +156,7 @@ U8  out0 plot_v1
 3.Change directory:
 
 4.Run ngspice:
+` ngspice 3bit_counter.cir.out`
 
 5.To run the project in eSim:<Br />
 • Run eSim<Br />
