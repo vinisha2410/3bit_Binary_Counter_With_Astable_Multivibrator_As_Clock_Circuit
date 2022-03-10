@@ -15,7 +15,6 @@
   • [Makerchip plots](https://github.com/vinisha2410/3bit_Binary_Counter_With_Astable_Multivibrator_As_Clock_Circuit/blob/main/README.md#makerchip-plots)<br />
   • [Netlists](https://github.com/vinisha2410/3bit_Binary_Counter_With_Astable_Multivibrator_As_Clock_Circuit/blob/main/README.md#netlists)<br />
   • [NgSpice Plots](https://github.com/vinisha2410/3bit_Binary_Counter_With_Astable_Multivibrator_As_Clock_Circuit/blob/main/README.md#ngspice-plots)<br />
-  • [GAW Plots](https://github.com/vinisha2410/3bit_Binary_Counter_With_Astable_Multivibrator_As_Clock_Circuit/blob/main/README.md#gaw-plots)<br />
   • [Steps to run generate NgVeri Model](https://github.com/vinisha2410/3bit_Binary_Counter_With_Astable_Multivibrator_As_Clock_Circuit/blob/main/README.md#steps-to-run-generate-ngveri-model)<br />
   • [Steps to run this project](https://github.com/vinisha2410/3bit_Binary_Counter_With_Astable_Multivibrator_As_Clock_Circuit/blob/main/README.md#steps-to-run-this-project)<br />
   • [Acknowlegdements](https://github.com/vinisha2410/3bit_Binary_Counter_With_Astable_Multivibrator_As_Clock_Circuit/blob/main/README.md#acknowlegdements)<br />
@@ -134,7 +133,7 @@ U8  out0 plot_v1
 ## NgSpice Plots
 ![image](https://user-images.githubusercontent.com/82384183/157350635-e8b40755-98e8-43a5-ad86-69e28b06770a.png)
 
-## GAW Plots
+
 ## Steps to run generate NgVeri Model
 1.Open eSim <Br />
 2.Run NgVeri-Makerchip <Br />
