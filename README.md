@@ -154,6 +154,7 @@ Output of Astable multivibrator- Clock circuit
 `git clone https://github.com/vinisha2410/3bit_Binary_Counter_With_Astable_Multivibrator_As_Clock_Circuit.git`
 
 3.Change directory:
+` cd esim_project_files`
 
 4.Run ngspice:
 ` ngspice 3bit_counter.cir.out`
